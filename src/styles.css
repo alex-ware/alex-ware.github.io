@@ -1,3 +1,9 @@
 body {
-    background-color: #ECD9BA !important;
+  background-color: #ecd9ba;
+}
+
+header {
+  background-color: #2e5a88;
+  padding: 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
