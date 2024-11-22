@@ -4,7 +4,7 @@ body {
 
 header {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   background-color: #2e5a88;
   padding: 20px;
