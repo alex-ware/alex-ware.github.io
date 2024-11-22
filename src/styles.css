@@ -6,5 +6,9 @@ header {
   background-color: #2e5a88;
   padding: 20px;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-  vertical-align: middle;
+  border-radius: 20px;
+}
+
+header > div {
+    vertical-align: middle;
 }
