@@ -16,3 +16,8 @@ header {
   display: flex;
   gap: 1rem;
 }
+
+#theme-switch {
+    display: flex;
+    justify-content: right;
+}
