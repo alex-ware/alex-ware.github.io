@@ -4,7 +4,7 @@
 
 header {
   display: flex;
-  justify-content: left;
+  justify-content: space-between;
   align-items: center;
   /*background-color: #2e5a88;*/
   padding: 20px;
@@ -19,5 +19,4 @@ header {
 
 #theme-switch {
     display: flex;
-    justify-content: right;
 }
