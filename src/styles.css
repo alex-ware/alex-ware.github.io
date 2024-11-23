@@ -1,5 +1,17 @@
-body {
-  background-color: #282c34;
+:root {
+    --base-colour: #abb2bf;
+    --base-variant: #282c34;
+    --text-colour: #636d83;
+    --secondary-text: #f2f4f5;
+    --accent-colour: #528bff;
+}
+
+.darkmode {
+    --base-colour: #282c34;
+    --base-variant: #5c6370;
+    --text-colour: #e06c75;
+    --secondary-text: #e5c07b;
+    --accent-colour: #528bff;   
 }
 
 header {
