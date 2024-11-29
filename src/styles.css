@@ -16,20 +16,6 @@
 
 body {
   min-height: 100vh;
-  background: linear-gradient(to right, #f00, #0ff);
-  animation: gradientChange 10s infinite;
-}
-
-@keyframes gradientChange {
-  0% {
-    background: linear-gradient(to right, #f00, #0ff);
-  }
-  50% {
-    background: linear-gradient(to left, #0ff, #f00);
-  }
-  100% {
-    background: linear-gradient(to right, #f00, #0ff);
-  }
 }
 
 header {
