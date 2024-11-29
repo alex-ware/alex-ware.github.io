@@ -16,9 +16,10 @@
 
 body {
   min-height: 100vh;
-  background: url('/images/pexels-googledeepmind-18069815.jpg') no repeat;
+  background: url('images/pexels-googledeepmind-18069815.jpg');
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 header {
