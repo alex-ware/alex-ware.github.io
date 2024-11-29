@@ -16,16 +16,19 @@
 
 body {
   min-height: 100vh;
-  background: linear-gradient(to right, #528bff, #e06c75);
-  animation: gradientAnimation 10s infinite;
+  background: linear-gradient(to right, #f00, #0ff);
+  animation: gradientChange 10s infinite;
 }
 
-@keyframes gradientAnimation {
+@keyframes gradientChange {
   0% {
-    background-position: 0% 50%;
+    background: linear-gradient(to right, #f00, #0ff);
+  }
+  50% {
+    background: linear-gradient(to left, #0ff, #f00);
   }
   100% {
-    background-position: 100% 50%;
+    background: linear-gradient(to right, #f00, #0ff);
   }
 }
 
