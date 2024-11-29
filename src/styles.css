@@ -16,7 +16,7 @@
 
 body {
   min-height: 100vh;
-  background: url('/src/images/pexels-googledeepmind-18069815.jpg') no repeat;
+  background: url('/images/pexels-googledeepmind-18069815.jpg') no repeat;
   background-size: cover;
   background-position: center;
 }
@@ -43,7 +43,7 @@ header {
   width: 50px;
   padding: 0;
   border-radius: 50%;
-  background-color: var(--base-colour);
+  /*background-color: var(--base-colour);*/
   display: flex;
   justify-content: center;
   align-items: center;
