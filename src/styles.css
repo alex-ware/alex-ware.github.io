@@ -1,7 +1,7 @@
 :root {
   --base-colour: white;
   --base-variant: #fffdd0;
-  --text-colour: #e06c75;
+  --text-colour: #282c34;
   --secondary-text: #e5c07b;
   --accent-colour: #528bff;
 }
@@ -9,7 +9,7 @@
 .darkmode {
   --base-colour: #282c34;
   --base-variant: #4b5263;
-  --text-colour: #e06c75;
+  --text-colour: white;
   --secondary-text: #e5c07b;
   --accent-colour: #528bff;
 }
@@ -23,6 +23,10 @@ body {
   background-repeat: no-repeat;*/
 }
 
+body .p {
+  color: var(--text-colour);
+}
+
 header {
   display: flex;
   position: fixed;
@@ -30,7 +34,6 @@ header {
   align-items: center;
   padding: 20px;
   width: calc(100% - 57px);
-  /*background-color: var(--base-colour);*/
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
   border-radius: 20px;
   backdrop-filter: blur(10px);
