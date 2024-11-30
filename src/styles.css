@@ -74,6 +74,6 @@ header {
   padding: 110px;
 }
 
-#content .p{
+#content p{
   color: var(--text-colour);
 }
