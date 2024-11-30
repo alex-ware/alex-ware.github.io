@@ -37,6 +37,11 @@ header {
   -webkit-backdrop-filter: blur(10px);
 }
 
+main {
+  display: flex;
+  padding: 20px;
+}
+
 #nav {
   display: flex;
   gap: 1rem;
