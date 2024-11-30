@@ -16,11 +16,11 @@
 
 body {
   min-height: 100vh;
-  background: url('images/pexels-googledeepmind-17483910.jpg');
+  /*background: url('images/pexels-googledeepmind-17483910.jpg');
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;*/
 }
 
 header {
@@ -37,9 +37,9 @@ header {
   -webkit-backdrop-filter: blur(10px);
 }
 
-main {
+#content {
   display: flex;
-  padding: 20px;
+  padding: 110px;
 }
 
 #nav {
