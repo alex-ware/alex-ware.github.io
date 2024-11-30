@@ -55,7 +55,6 @@ header {
 /*.fa-regular*/
 #theme-switch .fa-regular {
   font-size: 24px;
-  color: var(--text-colour);
   display: inline-block;
 }
 
