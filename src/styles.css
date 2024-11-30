@@ -24,10 +24,6 @@ body {
   background-repeat: no-repeat;*/
 }
 
-body .p {
-  color: var(--text-colour);
-}
-
 header {
   display: flex;
   position: fixed;
@@ -39,11 +35,6 @@ header {
   border-radius: 20px;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-}
-
-#content {
-  display: flex;
-  padding: 110px;
 }
 
 #nav {
@@ -76,4 +67,13 @@ header {
 
 .darkmode #theme-switch .fa-regular:last-child {
   display: block;
+}
+
+#content {
+  display: flex;
+  padding: 110px;
+}
+
+#content .p{
+  color: var(--text-colour);
 }
