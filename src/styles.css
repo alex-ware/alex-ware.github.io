@@ -53,19 +53,19 @@ header {
   align-items: center;
 }
 /*.fa-regular*/
-#theme-switch .button-29 {
+#theme-switch .fa-regular {
   font-size: 24px;
   color: var(--text-colour);
   display: inline-block;
 }
 
-#theme-switch .button-29:last-child {
+#theme-switch .fa-regular:last-child {
   display: none;
 }
-.darkmode #theme-switch .button-29:first-child {
+.darkmode #theme-switch .fa-regular:first-child {
   display: none;
 }
 
-.darkmode #theme-switch .button-29:last-child {
+.darkmode #theme-switch .fa-regular:last-child {
   display: block;
 }
