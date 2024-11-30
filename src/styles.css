@@ -17,6 +17,7 @@
 body {
   min-height: 100vh;
   background: url('images/pexels-googledeepmind-17483910.jpg');
+  background-attachment: fixed;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -51,20 +52,20 @@ header {
   justify-content: center;
   align-items: center;
 }
-
-#theme-switch .fa-regular {
+/*.fa-regular*/
+#theme-switch .button-29 {
   font-size: 24px;
   color: var(--text-colour);
   display: inline-block;
 }
 
-#theme-switch .fa-regular:last-child {
+#theme-switch .button-29:last-child {
   display: none;
 }
-.darkmode #theme-switch .fa-regular:first-child {
+.darkmode #theme-switch .button-29:first-child {
   display: none;
 }
 
-.darkmode #theme-switch .fa-regular:last-child {
+.darkmode #theme-switch .button-29:last-child {
   display: block;
 }
