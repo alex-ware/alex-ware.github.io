@@ -76,19 +76,11 @@ header {
 
 .projects {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  width: calc(100% - 57px);
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
-  border-radius: 20px;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
 }
 
 .projects h1{
   padding: 20px;
+  justify-content: left;
 }
 
 .project-card {
@@ -96,4 +88,9 @@ header {
   align-items: center;
   padding: 20px;
   width: calc(100% / 4);
+}
+
+.project-card h2{
+  padding: 20px;
+  justify-content: left;
 }
