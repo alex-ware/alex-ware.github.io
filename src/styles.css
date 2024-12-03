@@ -52,6 +52,7 @@ header {
   justify-content: center;
   align-items: center;
 }
+
 /*.fa-regular*/
 #theme-switch .fa-regular {
   font-size: 24px;
@@ -61,6 +62,7 @@ header {
 #theme-switch .fa-regular:last-child {
   display: none;
 }
+
 .darkmode #theme-switch .fa-regular:first-child {
   display: none;
 }
@@ -69,16 +71,13 @@ header {
   display: block;
 }
 
-#content {
-  display: flex;
-  padding: 110px;
-}
-
 .projects {
-  width: 100%;
-  padding: 20px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  width: calc(100% - 57px);
+  margin: 0 auto;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
   border-radius: 20px;
 }
@@ -86,6 +85,8 @@ header {
 .card {
   flex: 1;
   padding: 20px;
+  margin: 10px 0;
+  width: 100%;
   border-radius: 20px;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
 }
