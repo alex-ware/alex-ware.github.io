@@ -76,6 +76,7 @@ header {
 
 .projects {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
@@ -86,13 +87,13 @@ header {
   -webkit-backdrop-filter: blur(10px);
 }
 
+.projects h1{
+  padding: 20px;
+}
+
 .project-card {
   display: flex;
-
   align-items: center;
   padding: 20px;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
-  border-radius: 20px;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  width: calc(100% / 4);
 }
