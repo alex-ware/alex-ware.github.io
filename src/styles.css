@@ -75,7 +75,8 @@ header {
 }
 
 .projects {
-  display: flex;
+  display: grid;
+  gap: 20px;
 }
 
 .projects h1{
@@ -83,11 +84,16 @@ header {
   justify-content: left;
 }
 
-.project-card {
-  display: flex;
-  align-items: center;
-  padding: 20px;
-  width: calc(100% / 4);
+.project-card1 {
+  grid-area: 1 / 1 / 1 / 1;
+}
+
+.project-card2 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.project-card2 {
+  grid-area: 1 / 1 / 3 / 3;
 }
 
 .project-card h2{
