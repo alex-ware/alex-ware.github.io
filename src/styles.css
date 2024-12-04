@@ -4,6 +4,7 @@
   --text-colour: #282c34;
   --secondary-text: #e5c07b;
   --accent-colour: #528bff;
+  --header-height: 0px;
 }
 
 .darkmode {
@@ -12,6 +13,7 @@
   --text-colour: white;
   --secondary-text: #e5c07b;
   --accent-colour: #528bff;
+  --header-height: 0px;
 }
 
 body {
@@ -81,7 +83,7 @@ header {
   flex-direction: column;
   align-items: flex-start;
   padding: 20px;
-  margin-top: 10px;
+  margin-top: calc(var(--header-height) + 20px);
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
   border-radius: 20px;
 }
