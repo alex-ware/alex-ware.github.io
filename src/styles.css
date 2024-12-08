@@ -123,4 +123,19 @@ header {
   margin: 10px;
   color: var(--text-colour);
 }
+
+.resume {
+  display: block;
+  padding: 20px;
+  margin-top: 20x;
+  margin-left: 11px;
+  margin-right: 11px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+}
+
+.resume h2 {
+  margin: 10px;
+  color: var(--text-colour);
+}
  
