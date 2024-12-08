@@ -1,8 +1,24 @@
-/* CSS */
+:root {
+  --base-colour: white;
+  --base-variant: #fffdd0;
+  --text-colour: #282c34;
+  --secondary-text: #e5c07b;
+  --accent-colour: #528bff;
+}
+
+.darkmode {
+  --base-colour: #282c34;
+  --base-variant: #4b5263;
+  --text-colour: white;
+  --secondary-text: #e5c07b;
+  --accent-colour: #528bff;
+  --header-height: 0px;
+}
+
 .button-89 {
   --b: 3px;   /* border thickness */
   --s: .45em; /* size of the corner */
-  --color: #373B44;
+  --color: var(--text-colour);
   
   padding: calc(.5em + var(--s)) calc(.9em + var(--s));
   color: var(--color);
