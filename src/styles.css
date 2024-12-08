@@ -104,10 +104,18 @@ header {
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
+.card-header {
+  padding: 10px;
+  border-radius: 20px;
+  justify-content: space-around;
+  background-color: var(--base-colour);
+  color: var(--text-colour);
+}
+/*
 .card i{
   color: var(--text-colour);
 }
 .card h3 {
   color: var(--text-colour);
-}
+}*/
  
