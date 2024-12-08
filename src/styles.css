@@ -95,11 +95,6 @@ header {
   width: 30%;
   height: 200px;
   padding: 20px;
-  background-image: radial-gradient(
-      100% 100% at 100% 0,
-      #5adaff 0,
-      #5468ff 100%
-    );
   border-radius: 20px;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
 }
@@ -108,14 +103,20 @@ header {
   padding: 10px;
   border-radius: 20px;
   justify-content: space-between;
-  background-color: var(--base-colour);
-  color: var(--text-colour);
+  background-image: radial-gradient(
+      100% 100% at 100% 0,
+      #5adaff 0,
+      #5468ff 100%
+    );
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+  rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
+  color: white;
 }
 /*
 .card i{
   color: var(--text-colour);
-}
-.card h3 {
-  color: var(--text-colour);
 }*/
+.card-header h3 {
+  margin: 10px;
+}
  
