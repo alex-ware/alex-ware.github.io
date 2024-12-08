@@ -76,9 +76,10 @@ header {
 }
 
 .projects {
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 1fr;
+  gap: 20px;
   padding: 20px;
   margin-top: 130px;
   margin-left: 11px;
@@ -89,11 +90,17 @@ header {
 
 .projects h2 {
   color: var(--text-colour);
-} 
+  grid-column: 1 / span 1;
+  margin: 0;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
 
 .card {
-  width: 30%;
-  height: 200px;
   padding: 20px;
   border-radius: 20px;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
