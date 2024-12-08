@@ -107,7 +107,7 @@ header {
 .card-header {
   padding: 10px;
   border-radius: 20px;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: var(--base-colour);
   color: var(--text-colour);
 }
