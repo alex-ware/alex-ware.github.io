@@ -117,8 +117,10 @@ header {
 
 .card-header i{
   margin: 10px;
+  color: var(--text-colour);
 }
 .card-header h3 {
   margin: 10px;
+  color: var(--text-colour);
 }
  
