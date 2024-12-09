@@ -45,6 +45,7 @@ header {
   display: flex;
   gap: 1rem;
   padding: 20px;
+  font-size: 20px;
 }
 
 #theme-switch {
@@ -60,7 +61,7 @@ header {
 
 /*.fa-regular*/
 #theme-switch .fa-regular {
-  font-size: 24px;
+  font-size: 20px;
   display: inline-block;
 }
 
