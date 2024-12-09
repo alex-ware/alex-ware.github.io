@@ -148,7 +148,7 @@ header {
   background-color: var(--text-colour);
   background-image: none;
   border: 2px solid var(--text-colour);
-  border-radius: 4px;
+  border-radius: 20px;
   box-shadow: var(--base-colour) 4px 4px 0 0, var(--text-colour) 4px 4px 0 1px;
   box-sizing: border-box;
   color: var(--base-colour);
