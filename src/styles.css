@@ -58,20 +58,20 @@ header {
 }
 
 /*.fa-regular*/
-#theme-switch .fa-regular {
+#theme-switch .material-symbols-outlined {
   font-size: 20px;
   display: inline-block;
 }
 
-#theme-switch .fa-regular:last-child {
+#theme-switch .material-symbols-outlined:last-child {
   display: none;
 }
 
-.darkmode #theme-switch .fa-regular:first-child {
+.darkmode #theme-switch .material-symbols-outlined:first-child {
   display: none;
 }
 
-.darkmode #theme-switch .fa-regular:last-child {
+.darkmode #theme-switch .material-symbols-outlined:last-child {
   display: block;
 }
 
@@ -116,10 +116,11 @@ header {
   align-items: center;
 }
 
-.card-header i{
+.card-header .material-symbols-outlined {
   margin: 10px;
   color: var(--text-colour);
 }
+
 .card-header h3 {
   margin: 10px;
   color: var(--text-colour);
