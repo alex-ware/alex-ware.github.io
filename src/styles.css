@@ -36,12 +36,16 @@
     "wdth" 100;
 }
 
-/*default lines*/
-hr {
-  border: 0;
-  height: 1px;
-  background: var(--text-colour);
+.noto-sans-mono-p {
+  font-family: "Noto Sans Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 250;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
+
+
 
 /*body styles*/
 body {
@@ -169,6 +173,37 @@ header {
 
 .resume h2 {
   margin: 10px;
+  color: var(--text-colour);
+}
+
+.resume h3 {
+  margin: 10px;
+  color: var(--text-colour);
+}
+
+.resume p {
+  margin-top: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: justify;
+  color: var(--text-colour);
+}
+
+.location {
+  margin: 10px !important;
+}
+
+/* education container */
+.flex-line{
+  display: flex;
+  justify-content: space-between;
+}
+
+.line-left {
+  flex: 1;
+}
+
+a {
   color: var(--text-colour);
 }
 
