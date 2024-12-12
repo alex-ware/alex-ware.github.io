@@ -45,8 +45,6 @@
     "wdth" 100;
 }
 
-
-
 /*body styles*/
 body {
   min-height: 100vh;
@@ -176,9 +174,42 @@ header {
   color: var(--text-colour);
 }
 
+.skills img {
+  width: 32px;
+  height: 32px;
+}
+
 .languages {
+  margin-left: 10px;
   display: flex;
   gap: 1rem;
+}
+
+#info-popup {
+  position: absolute;
+  margin-top: -16px;
+  margin-inline: 0px;
+  visibility: hidden;
+  border: 2px solid var(--text-colour);
+  padding: 0px 10px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: var(--text-colour);
+  transition: visibility;
+}
+
+#info-popup p {
+  padding: 0px;
+}
+
+.skills img:hover + #info-popup{
+  visibility: visible;
+}
+
+.skills img:hover {
+  transform: scale(1.4);
+  transition: transform 0.3s ease-in-out;
 }
 
 /*resume styles*/
