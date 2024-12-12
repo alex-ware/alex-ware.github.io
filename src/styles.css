@@ -201,6 +201,7 @@ header {
 
 #info-popup p {
   padding: 0px;
+  font-weight: bold;
 }
 
 .skills img:hover + #info-popup{
