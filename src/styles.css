@@ -160,6 +160,27 @@ header {
   color: var(--text-colour);
 }
 
+/*skills*/
+.skills {
+  display: block;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 12px;
+  margin-right: 12px;
+  border: 2px solid var(--text-colour);
+  border-radius: 20px;
+}
+
+.skills h2 {
+  margin: 10px;
+  color: var(--text-colour);
+}
+
+.languages {
+  display: flex;
+  gap: 1rem;
+}
+
 /*resume styles*/
 .resume {
   display: block;
