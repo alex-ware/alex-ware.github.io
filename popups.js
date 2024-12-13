@@ -1,4 +1,4 @@
-const images = document.querySelectorAll('.languages img');
+const images = document.querySelectorAll('.techset img');
 
 images.forEach(image => {
   const popup = image.nextElementSibling; // Assuming the popup is the next sibling

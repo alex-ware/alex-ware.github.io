@@ -131,6 +131,11 @@ header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);    
+  }
 }
 
 .card {
@@ -179,8 +184,16 @@ header {
   height: 32px;
 }
 
-.languages {
+.technologies {
   margin-left: 10px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.techset {
+  flex: 1;
   display: flex;
   gap: 1rem;
 }
