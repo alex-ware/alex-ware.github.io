@@ -2,13 +2,15 @@
 :root {
   --base-colour: white;
   --base-variant: #fffdd0;
-  --text-colour: black; /*#282c34;*/
+  --text-colour: black;
+  /*#282c34;*/
   --secondary-text: #e5c07b;
   --accent-colour: #528bff;
 }
 
 .darkmode {
-  --base-colour: black; /*#282c34;*/
+  --base-colour: black;
+  /*#282c34;*/
   --base-variant: #4b5263;
   --text-colour: white;
   --secondary-text: #e5c07b;
@@ -17,7 +19,6 @@
 }
 
 /* noto font */
-
 .noto-sans-mono-h2 {
   font-family: "Noto Sans Mono", monospace;
   font-optical-sizing: auto;
@@ -60,9 +61,9 @@ body {
 header {
   display: flex;
   position: fixed;
-  top: 20px;
-  left: 20px;
-  right: 20px;
+  top: 28px;
+  left: 28px;
+  right: 28px;
   justify-content: space-between;
   align-items: center;
   /*box-shadow: 0px 2px 5px var(--text-colour);*/
@@ -114,8 +115,8 @@ header {
   gap: 20px;
   padding: 20px;
   margin-top: 124px;
-  margin-left: 12px;
-  margin-right: 12px;
+  margin-left: 20px;
+  margin-right: 20px;
   /*box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);*/
   border: 2px solid var(--text-colour);
   border-radius: 20px;
@@ -134,7 +135,7 @@ header {
 
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 1fr);    
+    grid-template-rows: repeat(3, 1fr);
   }
 }
 
@@ -168,8 +169,8 @@ header {
   display: block;
   padding: 20px;
   margin-top: 20px;
-  margin-left: 12px;
-  margin-right: 12px;
+  margin-left: 20px;
+  margin-right: 20px;
   border: 2px solid var(--text-colour);
   border-radius: 20px;
 }
@@ -217,7 +218,7 @@ header {
   font-weight: bold;
 }
 
-.skills img:hover + #info-popup{
+.skills img:hover+#info-popup {
   visibility: visible;
 }
 
@@ -226,13 +227,19 @@ header {
   transition: transform 0.3s ease-in-out;
 }
 
+@media (max-width: 768px) {
+  #info-popup {
+    display: none; /* Hide the popup on mobile */
+  }
+}
+
 /*resume styles*/
 .resume {
   display: block;
   padding: 20px;
   margin-top: 20px;
-  margin-left: 12px;
-  margin-right: 12px;
+  margin-left: 20px;
+  margin-right: 20px;
   border: 2px solid var(--text-colour);
   border-radius: 20px;
 }
@@ -260,7 +267,7 @@ header {
 }
 
 /* education container */
-.flex-line{
+.flex-line {
   display: flex;
   justify-content: space-between;
 }
