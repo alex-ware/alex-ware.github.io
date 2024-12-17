@@ -188,54 +188,23 @@ header {
 .skills img {
   width: 32px;
   height: 32px;
-}
-
-.technologies {
-  margin-left: 10px;
-  flex-wrap: wrap;
-  display: flex;
-  justify-content: space-between;
-  gap: 2rem;
-}
-
-.techset {
-  flex: 1;
-  display: flex;
-  gap: 1rem;
-}
-
-#info-popup {
-  position: absolute;
-  margin-top: -16px;
-  margin-inline: 0px;
-  visibility: hidden;
-  border: 2px solid var(--text-colour);
-  padding: 0px 10px;
-  border-radius: 10px;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  color: var(--text-colour);
-  transition: visibility;
-}
-
-#info-popup p {
-  padding: 0px;
-  font-weight: bold;
-}
-
-.skills img:hover + #info-popup {
-  visibility: visible;
+  transition: transform 0.3s ease-in-out;
 }
 
 .skills img:hover {
   transform: scale(1.4);
-  transition: transform 0.3s ease-in-out;
 }
 
-@media (max-width: 768px) {
-  #info-popup {
-    display: none; /* Hide the popup on mobile */
-  }
+.technologies {
+  margin-left: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.techset {
+  display: flex;
+  gap: 1rem;
 }
 
 /*resume styles*/
