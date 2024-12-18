@@ -41,7 +41,7 @@
   font-variation-settings: "wdth" 100;
 
   @media (max-width: 720px) {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
