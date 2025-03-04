@@ -21,6 +21,17 @@
 }
 
 /* noto font */
+.noto-sans-mono-h1 {
+  font-family: "Noto Sans Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 1200;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+
+  @media (max-width: 720px) {
+    font-size: 20px;
+  }
+}
 .noto-sans-mono-h2 {
   font-family: "Noto Sans Mono", monospace;
   font-optical-sizing: auto;
@@ -88,6 +99,12 @@ header {
   font-size: 20px;
 }
 
+#title {
+  display: flex;
+  gap: 1rem;
+  color: var(--text-colour); 
+}
+
 #theme-switch {
   padding: 20px;
   border-radius: 50%;
@@ -114,17 +131,43 @@ header {
   display: block;
 }
 
-/*project section and card styles*/
-.projects {
+.summary {
   display: block;
-  /*grid-template-rows: auto 1fr;
-  grid-template-columns: 1fr;*/
   gap: 20px;
   padding: 20px;
   margin-top: var(--content-margin);
   margin-left: var(--content-margin);
   margin-right: var(--content-margin);
-  /*box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);*/
+  border: 2px solid var(--text-colour);
+  border-radius: 20px;
+
+  @media (max-width: 768px) {
+    margin-left: var(--content-margin-mobile);
+    margin-right: var(--content-margin-mobile);
+  }
+}
+
+.summary h2 {
+  margin: 10px;
+  color: var(--text-colour);
+}
+
+.summary p {
+  margin-top: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: justify;
+  color: var(--text-colour);
+}
+
+/*project section and card styles*/
+.projects {
+  display: block;
+  gap: 20px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: var(--content-margin);
+  margin-right: var(--content-margin);
   border: 2px solid var(--text-colour);
   border-radius: 20px;
 
