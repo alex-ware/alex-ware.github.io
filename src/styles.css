@@ -200,7 +200,7 @@ header {
 
 .card {
   flex-basis: 100%;
-  padding: 20px;
+  padding: 10px;
   border-radius: 20px;
   border: 2px solid var(--text-colour);
 }
